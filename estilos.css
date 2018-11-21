@@ -6,7 +6,8 @@ h1 {
     color: white;
     text-align: center;
 }
-#telaEntrada {
+
+.telaEntrada {
     position: relative;
     background-color: #008000;
     width: 100%;
@@ -15,15 +16,7 @@ h1 {
     height: 30%;
 }
 
-#telaTarefas {
-    background-color: #fefcfa;
-    width: 100%;
-    border-width: 1px;
-    border-style: solid;
-    height: 69%
-}
-
-#botao {
+.botao {
     width: 70%;
     height: 30%;
     position: absolute;
@@ -32,6 +25,7 @@ h1 {
     text-align: center;
 }
 
-#tarefas {
-    text-align: center;
-}
+/*.listaInteira {
+padding: 100px 300px;
+position: relative;
+}*/
