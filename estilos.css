@@ -1,31 +1,61 @@
+html {
+    font-family: Arial;
+}
+
 body {
     background-color: #f2f2f2;
 }
 
-h1 {
+.titulo {
     color: white;
+    float: top;
     text-align: center;
+    font-size: 25px;
+}
+.classeTarefa {
+    font-size: 25px;
+    background: #e3eaa7;
+    width: 50.2%;
+    margin-left: 25%;
+}
+
+.classeTarefa:nth-child(odd) {
+    background: #b5e7a0;
 }
 
 .telaEntrada {
-    position: relative;
     background-color: #008000;
-    width: 100%;
+    width: 50%;
     border-width: 1px;
     border-style: solid;
-    height: 30%;
+    height: 20%;
+    margin-left: 25%;
+    margin-top: 5%;
 }
 
 .botao {
     width: 70%;
-    height: 30%;
-    position: absolute;
+    height: auto;
+    position: relative;
     top:30%;
     left:15%;
     text-align: center;
 }
 
-/*.listaInteira {
-padding: 100px 300px;
-position: relative;
-}*/
+.desli {
+    padding-bottom: 6px;
+    padding-left: 6px;
+    font-size: 30px;
+    float: right;
+    background-color: red;
+    display: inline;
+    right: 0;
+}
+
+.ativ {
+    font-size: 30px;
+}
+
+.classeTarefa:hover {
+    background-color: blue;
+}
